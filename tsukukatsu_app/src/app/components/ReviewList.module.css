@@ -1,0 +1,7 @@
+/* ReviewList.module.css */
+.heading {
+    text-align: center; /* 中央揃え */
+    font-size: 2rem; /* フォントサイズを大きく */
+    font-weight: bold; /* 太字にする */
+    margin: 2rem 0; /* 上下に余白を追加 */
+  }
