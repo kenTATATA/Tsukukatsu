@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import SiteTitle from "./components/SiteTitle";
 import ButtonSection from "./components/ButtonSection";
 import ReviewList from "./components/ReviewList";
-import JobList from "./components/JobList";
+// import JobList from "./components/JobList";
 
 export default function Home() {
   const [showReviews, setShowReviews] = useState(true);
@@ -32,7 +32,7 @@ export default function Home() {
       <ButtonSection onShowReviews={handleShowReviews} onShowJobs={handleShowJobs} />
 
       {showReviews && <ReviewList />}
-      {showJobs && <JobList />}
+      {/* {showJobs && <JobList />} */}
     </div>
   );
 }

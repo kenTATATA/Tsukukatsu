@@ -11,13 +11,11 @@ type ButtonSectionProps = {
 
 export default function ButtonSection({ onShowReviews, onShowJobs }: ButtonSectionProps) {
   const handleReviewsClick = () => {
-    // インターン生の口コミ一覧ページへの遷移
-    console.log("インターン生の口コミ一覧ページへ遷移");
+    onShowReviews(); // プロップスとして渡された関数を呼び出す
   };
 
   const handleJobsClick = () => {
-    // 企業のインターン求人一覧ページへの遷移
-    console.log("企業のインターン求人一覧ページへ遷移");
+    onShowJobs(); // プロップスとして渡された関数を呼び出す
   };
 
   return (
