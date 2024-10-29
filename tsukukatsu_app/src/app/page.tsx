@@ -10,15 +10,15 @@ import ReviewList from "./components/ReviewList";
 
 export default function Home() {
   const [showReviews, setShowReviews] = useState(true);
-  const [showJobs, setShowJobs] = useState(false);
+  // const [showJobs, setShowJobs] = useState(false);
 
   const handleShowReviews = () => {
     setShowReviews(true);
-    setShowJobs(false);
+    // setShowJobs(false);
   };
 
   const handleShowJobs = () => {
-    setShowJobs(true);
+    // setShowJobs(true);
     setShowReviews(false);
   };
 
