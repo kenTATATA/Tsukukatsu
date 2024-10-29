@@ -1,0 +1,43 @@
+/* Button.module.css */
+
+/* 共通のボタンスタイル */
+.button {
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Primary ボタン（ログイン用） */
+.primary {
+  background-color: #6600cc;
+  color: #ffffff;
+  border: none;
+}
+
+.primary:hover {
+  background-color: #5500aa;
+}
+
+/* Secondary ボタン（会員登録用） */
+.secondary {
+  background-color: #eaeaea;
+  color: #6600cc;
+  border: 2px solid #6600cc;
+}
+
+.secondary:hover {
+  background-color: #d4d4d4;
+}
+
+/* Outline ボタンの例 */
+.outline {
+  background-color: transparent;
+  color: #333;
+  border: 2px solid #333;
+}
+
+.outline:hover {
+  background-color: #f0f0f0;
+}

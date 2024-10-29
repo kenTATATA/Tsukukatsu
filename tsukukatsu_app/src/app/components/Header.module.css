@@ -1,0 +1,20 @@
+/* ヘッダー全体のレイアウト設定 */
+.header {
+  display: flex;
+  align-items: center;          /* 縦方向の中央揃え */
+  justify-content: space-between; /* ロゴとボタンを左右に配置 */
+  padding: 0.5rem 1rem;           /* ヘッダー内の余白 */
+  background-color: #f8f8f8;    /* 背景色 */
+}
+
+/* ロゴ、ナビゲーション、ボタンのスタイル */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+  

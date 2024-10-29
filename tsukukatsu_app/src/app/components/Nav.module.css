@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px; /* ヘッダーの下に配置 */
+  right: 0;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+.nav a {
+  margin: 0.5rem 0;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}

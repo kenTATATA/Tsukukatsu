@@ -1,0 +1,20 @@
+/* ロゴ全体のコンテナ */
+.logo {
+    display: flex;
+    align-items: center; /* ロゴの中央揃え */
+    cursor: pointer; /* ホバー時にクリック可能であることを示す */
+  }
+  
+  /* ロゴ画像のスタイル */
+  .logo img {
+    width: 200px; /* 画像サイズの指定 */
+    height: 80px; /* 高さの指定 */
+    object-fit: contain; /* 画像の比率を保ちながら表示 */
+  }
+  
+  /* ホバー時のエフェクト */
+  .logo:hover {
+    opacity: 0.8; /* 少し透明にする */
+    transition: opacity 0.3s ease; /* なめらかなホバーエフェクト */
+  }
+  

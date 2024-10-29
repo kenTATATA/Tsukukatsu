@@ -1,0 +1,21 @@
+/* SiteTitle.module.css */
+
+.siteTitle {
+    background-color: #ecdaf9; /* 背景色 */
+    text-align: center;
+    padding: 2rem 1rem; /* 内側の余白 */
+    line-height: 1.6; /* 行間の調整 */
+    font-size: 1.5rem; /* フォントサイズ */
+    color: #333; /* テキスト色 */
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 4.0rem;
+}
+
+.smallBold {
+    font-size: 2.4rem; /* 他の文より小さく設定 */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
