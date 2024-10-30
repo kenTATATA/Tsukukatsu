@@ -2,6 +2,7 @@
 "use client";
 
 import { useState } from "react";
+// import { useUser } from "../context/UserContext";
 import Header from "../components/Header";
 import styles from "./Signup.module.css";
 
